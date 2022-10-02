@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+#grid {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: auto;
+    width: auto;
+    border: 1px solid red;
+    padding: 0;
+}
+
+.gridRow {
+    display:flex;
+    margin: 0;
+    padding: 0;
+}
+
+.gridElement {
+    background-color: blue;
+    margin: 1px;
+    padding: 0;
+}
