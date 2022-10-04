@@ -3,7 +3,7 @@ function mouseoverFcn() {
 }
 
 function getColor() {
-    if (drawColor === "lightgreen") return "lightgreen";
+    if (drawColor === "darkgreen") return "darkgreen";
     else if (drawColor === "rainbow") { 
         return rainbowColors[Math.floor(Math.random() * 13)];
     }
@@ -53,14 +53,13 @@ btn.addEventListener("click", () => {
 });
 
 
-let drawColor = "lightgreen";
+let drawColor = "darkgreen";
 
 const btnStandard = document.getElementById("standard");
 btnStandard.addEventListener("click", () => {
-    drawColor = "lightgreen";
+    drawColor = "darkgreen";
 });
 const btnRainbow = document.getElementById("rainbow");
 btnRainbow.addEventListener("click", () => {
     drawColor = "rainbow";
 });
-

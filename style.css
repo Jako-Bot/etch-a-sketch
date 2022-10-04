@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 20px;
+    background-color: #59656F;
 }
 
 .grid {
@@ -18,7 +19,7 @@ body {
 }
 
 .gridElement {
-    background-color: rgb(128, 128, 148);
+    background-color: #FFFFFF;
     margin: 0;
     padding: 0;
 }
